@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 
-type Props = {};
-const Review = (props: Props) => {
+// type Props = {};
+const Review = (props) => {
 
   const [email, setemail] = useState("");
   const [number, setnumber] = useState("");
