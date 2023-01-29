@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-type Props = {}
+type Props = {};
 const Review = (props: Props) => {
 
   const [email, setemail] = useState("");
